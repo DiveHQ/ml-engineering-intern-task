@@ -8,7 +8,7 @@
 
 <!--- Use this section to appeal to students. Consider sharing information about recent projects, the technology stack, the type of mentorship students can expect, listing future employment opportunities, etc. --->
 
-### Octernship role description: ML Engineering Intern
+### Octernship role description: Machine Learning Engineering Intern
 
 <!--- Use this section to describe the role in as much detail as necessary. Please include the GitHub Classroom assignment submission date, length of the Octernship, and the monthly stipend --->
 
@@ -30,14 +30,21 @@ To participate, you must be:
 <!--- Use this section to describe the project that students are required to complete. We ask that you also include instructions on running and preparing the students' local environment if necessary. --->
 
 ### Task Expectations
-
-<!--- Please add expectations that students need to follow to be considered. Some examples include: completing the project on their own, not using code from external resources without comprehending the logic, etc.  --->
+- Documentation of any assumptions or choices made and why
+- Links as citation to any article / code referred to or used
+- Appropriate exception handling and error messages
+- Code Quality - remove any unnecessary code, avoid large functions
+- Good commit history - we won’t accept a repo with a single giant commit 🙅‍♀️
 
 ### Task submission
 
-1. Using [GitHub Classroom](https://classroom.github.com/) to make submissions
-2. Opening a Pull Request for review
-3. Using GitHub Discussions to ask any relevant questions regarding the project
+1. Using GitHub Classroom to make submissions.
+1. Opening a Pull Request for review.
+1. Using GitHub Discussions to ask any relevant questions regarding the project.
+1. Final submission Checklist:
+- [ ] SUBMISSION.md in the repository / PR, with:
+  - [ ] commands to set up the repo (dependencies etc.)
+
 
 ### Resources
 
