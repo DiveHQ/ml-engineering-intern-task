@@ -1,4 +1,4 @@
-## Dive ![Dive Logo](https://uploads-ssl.webflow.com/629997f27bd9970e1198c38a/62a79586687623782b2fe2bb_Dive.svg)
+## ![Dive Logo](https://user-images.githubusercontent.com/424487/219708981-f0416526-ba48-4b01-b5b3-c0eb73362718.png) Dive
 
 ### Company information
 
