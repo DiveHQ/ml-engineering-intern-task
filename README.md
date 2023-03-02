@@ -84,10 +84,10 @@ From meeting transcripts, identify action items (tasks to be done) that were ide
 
 ### Task submission
 
-2. Making changes on the auto generated `feedback` branch to complete the task
-3. Using the auto generated **Feedback Pull Request** for review and submission
-4. Using GitHub Discussions to ask any relevant questions regarding the project
-5. Final submission Checklist:
+1. Making changes on the auto generated `feedback` branch to complete the task
+2. Using the auto generated **Feedback Pull Request** for review and submission
+3. Using GitHub Discussions to ask any relevant questions regarding the project
+4. Final submission Checklist:
 - [ ] `APPROACH.md` Document
   - note all the approaches considered
   - document any assumptions made and why
