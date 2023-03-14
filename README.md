@@ -1,28 +1,10 @@
 ## ![Dive Logo](https://user-images.githubusercontent.com/424487/219708981-f0416526-ba48-4b01-b5b3-c0eb73362718.png) Dive
-
-### Company information
-
-<!--- Use this section to share information about your company such as founding information, mission statement, product description, product success, etc.--->
-
-### Why participate in an Octernship with Dive
-
-<!--- Use this section to appeal to students. Consider sharing information about recent projects, the technology stack, the type of mentorship students can expect, listing future employment opportunities, etc. --->
-
-### Octernship role description: Machine Learning Engineering Intern
-
-<!--- Use this section to describe the role in as much detail as necessary. Please include the GitHub Classroom assignment submission date, length of the Octernship, and the monthly stipend --->
-
-### Recommended qualifications
-
-<!--- Use this section to describe what skills a student might need to complete the problem statement on GitHub Classroom --->
-
-### Eligibility
-
-To participate, you must be:
-* 18 years or older
-
+| Octernship info  | Timelines and Stipend |
+| ------------- | ------------- |
+| Assignment Deadline  | 3rd April 2023  |
+| Octernship Duration  | 1st May 2023 - 30th July 2023 |
+| Monthly Stipend  | $500 USD  |
 ## Assignment
-
 # Identify action items from meeting transcripts
 
 ### Task instructions
@@ -84,9 +66,10 @@ From meeting transcripts, identify action items (tasks to be done) that were ide
 
 ### Task submission
 
-1. Making changes on the auto generated `feedback` branch to complete the task
-2. Using the auto generated **Feedback Pull Request** for review and submission
-3. Using GitHub Discussions to ask any relevant questions regarding the project
+Please use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow#following-github-flow) for assignment submission
+1. Creating and working on a new branch.
+2. Raising a Pull Request for submission.
+3. Using GitHub Discussions to ask any relevant questions regarding the project.
 4. Final submission Checklist:
 - [ ] `APPROACH.md` Document
   - note all the approaches considered
