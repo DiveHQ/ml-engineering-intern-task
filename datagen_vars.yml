@@ -1,0 +1,33 @@
+scene_list : 
+  - AI first Software company
+  - Bank.
+  - Car company
+  - Construstion company
+  - Interior Designing
+  - Insurance company
+  - IT company
+  - Manufacturing company
+  - Marketing company
+  - Pharmaceutical company
+  - Real Estate company
+
+example: "Scenario: standup meet of backend team for a payment gateway.\n
+Participants: John, Sarah, David, Emily\n
+Turns: 10\n
+10:00:00||10:01:50||John||Good morning everyone, let's start with our daily standup meeting.\n
+10:02:00||10:03:30||Sarah||I have been working on the transaction module and have completed the integration with the payment gateway.\n 
+10:03:40||10:05:00||David||I have been working on the user authentication module and have found some issues with the password reset functionality.\n 
+10:05:10||10:06:30||John||David can you please create a ticket for this issue and assign it to yourself?\n
+10:06:40||10:08:00||David||Sure John, I will do that.\n
+10:08:10||10:09:30||Emily||I have been working on the account balance module and have found some performance issues.\n 
+10:09:40||10:11:00||John||Emily can you please investigate the issue and provide a solution by the end of the day? And Sarah please ghelp Emily if she has any issues.\n
+10:11:10||10:12:30||Emily||Sure John, I will do that.\n
+10:12:40||10:14:00||Sarah||I have also found some issues with the transaction history module.\n 
+10:14:10||10:15:30||John||Sure Sarah, I can pick that up? And can someone please create minutes of the meetings.\n
+Action Items:\n
+password reset functionality||David\n
+account balance module||Emily, Sarah\n
+transaction history module||John\n
+create minutes of the meetings||UNKOWN"
+
+
