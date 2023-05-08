@@ -1,0 +1,112 @@
+scenario,participants,turns
+"Requesting a quote for renters insurance,Insurance company","Caleb, Brandon, Olivia, Ryan",20
+"Discussing potential partnerships with non-profit organizations,AI first Software company","Stephanie, Ryan, Andrew, Nicholas",24
+"Analyzing competitor activity,Pharmaceutical company","Jenna, Jordan, Nicholas, Rachel, Zachary",30
+"Filing a claim for a house fire,Insurance company","Megan, Taylor, William",15
+"Reviewing patent applications,Pharmaceutical company","Justin, Dylan, Madison, Nicholas",24
+"Designing a minimalist bedroom for a small apartment,Interior Designing","Benjamin, Taylor, Anthony, Rachel",20
+"Negotiating the sale of a farm or ranch property.,Real Estate company","Jessica, Dylan, Alexandra",12
+"Discussing financing for a classic car,Car company","Christopher, Samantha",10
+"Filing a claim for a pet injury,Insurance company","Amber, Nicholas",10
+"Attending a safety seminar,Car company","Alexandra, James",10
+"Conducting a team building activity,Manufacturing company","Jessica, Michael",6
+"Analyzing drug side effects.,Pharmaceutical company","Jordan, Alyssa, Nicholas, Julia, Elizabeth",30
+"Discussing potential expansion into new industries.,AI first Software company","Jordan, Ryan, Olivia, Anthony, Matthew",25
+"Conducting a SWOT analysis,Marketing company","Alyssa, Christopher, Anthony, Kayla",20
+"Discussing equipment maintenance schedules,Manufacturing company","John, Elizabeth",8
+"Planning a carpool for work,Car company","Victoria, Matthew, Julia, Kayla",16
+"IT infrastructure maintenance and upgrade planning meeting,IT company","Nicholas, Emily, Jordan, Nicole, Joshua",25
+"Discussing car insurance options,Car company","James, Brandon, Kevin, Zachary",20
+"Conducting a training session for new employees.,Construstion company","Alexandra, Justin, Kevin",15
+"Planning drug storage and transportation strategies,Pharmaceutical company","Samantha, Sarah, Michael, Kaitlyn",12
+"Planning marketing strategies,Pharmaceutical company","Jacob, David, Elizabeth",18
+"Learning about hybrid cars,Car company","Stephanie, Matthew, Emily",9
+"Conducting a site cleanup and maintenance check.,Construstion company","Taylor, Taylor, Hannah, Alyssa, Lauren",20
+"IT vendor management meeting,IT company","Olivia, Ethan, Amber, Megan",16
+"Discussing potential expansion into international markets,AI first Software company","Dylan, Emily",10
+"Reviewing financial reports,Manufacturing company","Lauren, Matthew, Alexandra, Jenna, Daniel",30
+"Planning a marketing campaign,Manufacturing company","Madison, William",6
+"Discussing umbrella insurance options,Insurance company","Lauren, Tyler",8
+"Discussing overdraft protection,Bank.","Ryan, Kevin, Andrew, Alyssa, Caleb",25
+"Learning about car maintenance,Car company","Taylor, Julia, Nicholas, Anthony",20
+"Social media marketing strategy session,IT company","Samantha, Rachel, Nicole",9
+"Conducting a safety training session,Manufacturing company","Brianna, Stephanie",12
+"Brainstorming session for a new software project,IT company","Alexandra, Ethan, Andrew, Julia",24
+"Sales team meeting to discuss strategies and targets,IT company","Madison, Taylor",8
+"Planning a community outreach program,Manufacturing company","James, Ashley, Jenna",15
+"Creating a cozy fireplace area in a living room,Interior Designing","Nicholas, Alyssa, Caleb, John",12
+"Requesting a quote for business insurance,Insurance company","Taylor, Nicole",12
+"Creating a customer satisfaction survey,Marketing company","Ryan, James, Brianna",18
+"Discussing international banking options,Bank.","Tyler, Benjamin",6
+"Planning employee training programs,Pharmaceutical company","Anthony, Andrew, Sarah, Ryan",24
+"Creating a cohesive design scheme for a hotel lobby,Interior Designing","Rachel, Rachel, Benjamin, Alyssa, Dylan",15
+"Reporting a weather-related damage claim,Insurance company","Christopher, Matthew, Alexandra, Taylor",24
+"Conducting research on new technologies,Pharmaceutical company","Brianna, Kevin, Andrew, Lauren, Lauren",15
+"Analyzing email marketing metrics,Marketing company","David, Julia, Amber",9
+"Discussing car-sharing options,Car company","Taylor, Taylor, Anthony, Daniel",24
+"Discussing leasing options,Car company","Caleb, John",6
+"Discussing the possibility of a land swap.,Real Estate company","William, Michael, Kayla",9
+"Filing a claim for a car accident,Insurance company","Emily, Sarah, Michael",12
+"Selecting decor for a beachfront restaurant,Interior Designing","Dylan, Emily, James, Madison",20
+"Brainstorming new product ideas,Manufacturing company","Christopher, Andrew",6
+"Reviewing drug efficacy data,Pharmaceutical company","Kevin, Benjamin, Jordan, Anthony, Rachel",30
+"Renewing a home insurance policy,Insurance company","Christopher, William, Brandon, Amber",12
+"Planning a social media campaign,Marketing company","Ryan, Zachary, Stephanie",9
+"Updating coverage for a new boat purchase,Insurance company","Jacob, Stephanie, Lauren, Benjamin, Daniel",15
+"Creating a rustic kitchen for a cabin,Interior Designing","Jessica, David, Christopher, John",16
+"Discussing employee benefits,Manufacturing company","Andrew, Zachary",10
+"Reporting a stolen vehicle,Insurance company","Olivia, Stephanie, Lauren",9
+"Developing supply chain strategies,Pharmaceutical company","Christopher, Megan, Justin, Jacob",16
+"Creating a welcoming reception area for a medical office,Interior Designing","David, Brianna, Emily, Madison",24
+"Reviewing financial reports,Pharmaceutical company","Christopher, Anthony, Ryan",15
+"Company-wide town hall meeting,IT company","Alexandra, Julia, Victoria, Matthew, Megan",30
+"Negotiating the sale of a mixed-use property.,Real Estate company","James, Zachary, Hannah, Nicole",20
+"Discussing online banking options,Bank.","Nicole, Emily",6
+"Resolving a billing error,Bank.","Alyssa, Stephanie, Matthew, Hannah, James",15
+"Planning a real estate investment trust.,Real Estate company","David, Rachel, Jenna, Tyler",20
+"Reviewing the terms of a homeowner association agreement.,Real Estate company","Rachel, Samantha",8
+"Planning a real estate investment portfolio.,Real Estate company","Kaitlyn, Nicholas, William, Olivia",16
+"Analyzing customer feedback,Manufacturing company","Stephanie, Jessica, Justin, Dylan, Christopher",30
+"Analyzing healthcare policy changes,Pharmaceutical company","Emily, Taylor, Ethan, Megan, Ryan",20
+"Researching electric cars,Car company","Ethan, William",6
+"Planning a trade show exhibit,Marketing company","Christopher, William, Benjamin",15
+"Filing a claim for a personal injury.,Insurance company","Ryan, Nicholas",8
+"Developing drug pricing strategies,Pharmaceutical company","Emily, Dylan, Ryan, Amber",12
+"Discussing cost reduction strategies,Manufacturing company","Nicholas, Taylor, Ryan",18
+"Interviewing potential new hires,AI first Software company","Caleb, Lauren, Ethan, Caleb",12
+"Discussing project risks and mitigation strategies.,Construstion company","Stephanie, Ryan, William, Anthony, Jacob",15
+"Discussing clinical trial results,Pharmaceutical company","Andrew, Lauren, Megan, Kayla, Justin",20
+"Discussing investment options,Bank.","Jacob, Kayla, Elizabeth",12
+"Learning about autonomous cars,Car company","Jacob, Nicole, Olivia, Justin",16
+"Reviewing the terms of a property management contract.,Real Estate company","Samantha, Christopher, Brandon, Megan, Olivia",25
+"Discussing the purchase of a property for a school.,Real Estate company","Samantha, Alexandra, Joshua, Olivia",20
+"Updating personal information,Bank.","Brandon, Jessica, Zachary",18
+"Training session on new software updates,AI first Software company","Benjamin, Nicholas",8
+"Discussing production targets for the month,Manufacturing company","Dylan, Rachel",8
+"Negotiating the sale of a luxury home.,Real Estate company","Lauren, William, Christopher",12
+"Reviewing customer feedback on current products,AI first Software company","Andrew, Christopher, Ryan",12
+"Discussing equipment maintenance and repairs.,Construstion company","Justin, Brianna, Zachary, Christopher, Olivia",25
+"Discussing marketing strategies for upcoming product launch,AI first Software company","Matthew, Taylor",10
+"Planning company-wide training on diversity and inclusion,AI first Software company","Ethan, John, Tyler",18
+"Transferring funds between accounts,Bank.","Jenna, William",8
+"Designing a cozy guest room for a bed and breakfast,Interior Designing","Stephanie, Ryan, Taylor, Sarah, Lauren",20
+"Updating coverage for a new business location,Insurance company","Ashley, Nicholas, Zachary, Jenna",20
+"Reviewing drug reimbursement policies,Pharmaceutical company","Ethan, Nicole, Christopher, Victoria",24
+"Reviewing customer feedback,Marketing company","Jacob, Daniel, Amber, Kevin",20
+"Analyzing market trends,Manufacturing company","Megan, Christopher",6
+"Choosing furniture for a boutique hotel room,Interior Designing","Kayla, Rachel, Emily, Alyssa",20
+"Designing a themed playroom for children,Interior Designing","Samantha, Justin",12
+"Conducting a safety drill.,Construstion company","Anthony, Hannah, Emily, Kevin",24
+"Discussing potential acquisition of smaller tech companies,AI first Software company","Lauren, Kevin",12
+"Evaluating supplier performance,Manufacturing company","Andrew, William, Jordan, Christopher",24
+"Discussing the purchase of a property for a religious organization.,Real Estate company","William, Amber, Caleb, Alexandra",20
+"Planning a plant expansion,Manufacturing company","Rachel, Kayla, Amber",15
+"Lunch and learn session on AI and machine learning,IT company","Andrew, Julia, Kayla",9
+"Evaluating potential partnerships,Pharmaceutical company","Ethan, Andrew",10
+"Opening a new account,Bank.","Andrew, Julia, Christopher",15
+"Brainstorming session for new AI product ideas,AI first Software company","Joshua, Jenna, William, Nicholas",16
+"Planning a carpool for school,Car company","Lauren, Amber, Ryan, Madison",24
+"Discussing long-term care insurance options,Insurance company","Taylor, Tyler",8
+"Reporting a lost or stolen card,Bank.","Zachary, Christopher",8
+"Discussing project management software and tools.,Construstion company","Dylan, Stephanie, Rachel",15
+"IT budget planning meeting,IT company","Elizabeth, Megan, William",15
