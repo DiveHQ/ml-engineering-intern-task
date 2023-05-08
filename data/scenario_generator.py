@@ -5,6 +5,7 @@ from tqdm.auto import tqdm
 import re
 import random
 import json
+import sys
 from utils import get_completion
 
 
@@ -14,7 +15,7 @@ if __name__ == '__main__':
 
     # Generate a list of names
     prompt_names = "Generate 100 names of people" # Generating random names to be use dfor dialogue generation
-    names = get_completion(prompt_names,temperature=0.0)
+    names = get_completion(prompt_names,temperature=0.4)
     names = names.split('\n')
     names = [re.sub(r'\d+\.\s+', '', name) for name in names]
 
@@ -22,6 +23,7 @@ if __name__ == '__main__':
     dialogue_id = 0
     dataset = []
     labels = []
+    remaining = []
     for scene in data['scene_list']:
         
         prompt_scenario = f"""
@@ -37,32 +39,7 @@ Keep it short
             num_names = random.randint(2,5)
             participants = random.sample(names,num_names)
             turns = random.randint(3,6)*num_names
-            prompt_dialogue = f"""
-{data['example']}
-
-Scenario: {inp}
-Participants : {', '.join(participants)}
-Turns: {turns}
-"""
-            response = get_completion(prompt_dialogue)
-            dialogue, action_items = response.split('\nAction Items:\n')
-            dialogue = dialogue.split('\n')
-            dialogue_list = [[dialogue_id]+diag.split('||') for diag in dialogue]
-            action_items = action_items.split('\n')
-            lab = {
-                'id' : dialogue_id,
-                'label' : action_items
-            }
-            labels.append(lab)
-            dataset.extend(dialogue_list)
-
-    df_dialogue = pd.DataFrame(dataset,columns=['id','start_time','end_time','speaker','text'])
-    df_dialogue.to_csv('dialogue.csv',index=False)
-
-    with open('labels.json','w') as f:
-        json.dump(labels,f)
-                
-
-
-
-    #Generate data for given scenario with randomly picked names and randomly found turns
+            dataset.append([inp,', '.join(participants),turns])
+    
+    df_scenario = pd.DataFrame(dataset,columns=['scenario','participants','turns'])
+    df_scenario.to_csv('datasets/scenario.csv',index=False)

@@ -1,7 +1,7 @@
 import openai
 import yaml
 from yaml.loader import SafeLoader
-with open('env.yml','r') as f:
+with open('../env.yml','r') as f:
     data = yaml.load(f, Loader=SafeLoader)
 openai.organization = data["OPEN_API_ORG"]
 openai.api_key = data["OPENAI_API_KEY"]
