@@ -95,7 +95,7 @@ So we have four metrics from this
 
 Below is a graph showing data for exact match and BART seems to outperform all the models.<br>
 <p align="center">
-<img src="miscellaneous/exact_match.png"  width="600" height="300">
+<img src="https://github.com/debalabbas/BinaryClassification/assets/54613428/ed1d1c94-9079-4e2b-ada0-490b9af9221d"  width="600" height="300">
 </p>
 
 All the other metrics can be found [here](https://wandb.ai/debalabbas7/action-item-extractor?workspace=user-debalabbas7)
