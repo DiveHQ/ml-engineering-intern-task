@@ -93,8 +93,10 @@ So we have four metrics from this
 3. Not Found
 4. Extra Generated 
 
-Below is a graph showing data for exact match and BART seems to outperform all the models.
+Below is a graph showing data for exact match and BART seems to outperform all the models.<br>
+<p align="center">
 <img src="miscellaneous/exact_match.png"  width="600" height="300">
+</p>
 
 All the other metrics can be found [here](https://wandb.ai/debalabbas7/action-item-extractor?workspace=user-debalabbas7)
 ## Refrences
