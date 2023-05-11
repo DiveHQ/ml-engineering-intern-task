@@ -1,5 +1,6 @@
-jupyter==1.0.0
 datasets==2.12.0
 pandas==2.0.1
 openai==0.27.6
 torch==1.12.1+cu116
+fuzzywuzzy
+python-Levenshtein

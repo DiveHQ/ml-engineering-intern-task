@@ -68,13 +68,35 @@ I have framed the problem as Sequence to Sequence Problem, where we input the co
 
 I have used the BART model which is an encoder decoder model as it is able to handle longer Sequence and since the average length of our transcription is 279 tokens. So we would not have been able to use LSTM as they suffer wiht information loss on Sequences longer than 256.
 
-I have used the [philschmid/bart-large-cnn-samsum](https://huggingface.co/philschmid/bart-large-cnn-samsum) checkpoint from huggingface, because this model is already traine on summarising dialogue data, which is very similar to out task.
+We have used multiple models having different architectures and compared them using a custom metric.
+We have used the following models:
+1. BART (Encoder Decoder Model), checkpoint used: [philschmid/bart-large-cnn-samsum](https://huggingface.co/philschmid/bart-large-cnn-samsum) 
+2. DistilBART (Encoder Decoder Model), checkpoint used: [philschmid/distilbart-cnn-12-6-samsum](https://huggingface.co/philschmid/distilbart-cnn-12-6-samsum)
+3. Flan-T5 (Encoder Decoder Model), checkpoint used: [philschmid/flan-t5-base-samsum](https://huggingface.co/philschmid/flan-t5-base-samsum)
+4. BLOOM LM (Decoder Model), checkpoint used : [bigscience/bloom-560m](https://huggingface.co/bigscience/bloom-560m)
+
+All the Encoder Decoder models were pretrained on the SamSum dataset which is used for dialogue summarization, while BLOOm was trained on general tasks.
 
 Training code can be found inside `training/`
 
-The trained model can be found on huggingface hub [here](https://huggingface.co/Debal/action-item-generator)
+All the trained models can be found on huggingface hub [here](https://huggingface.co/Debal)
 
+Note : have not uploaded the Flan-T5 due it's very poor performance.
 
+## Evaluation
+I have written a new custom metric for evaluating the generated action items.
+First we get embeddings for all the action item text using the `text-embedding-ada-002` model from openai.
+Then we run cosine similarity and have used a threshold of `0.85` , if we found a match then we use a fuzzy match to see if it has been assigned to the right person.
+So we have four metrics from this
+1. Exact Match 
+2. Wrong Assignee
+3. Not Found
+4. Extra Generated 
+
+Below is a graph showing data for exact match and BART seems to outperform all the models.
+<img src="miscellaneous/exact_match.png"  width="600" height="300">
+
+All the other metrics can be found [here](https://wandb.ai/debalabbas7/action-item-extractor?workspace=user-debalabbas7)
 ## Refrences
 
 This is the link that was used for [prompt engineering](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)

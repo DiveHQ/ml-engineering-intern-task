@@ -4,12 +4,20 @@ import pandas as pd
 from tqdm.auto import tqdm
 import re
 import random
-import json
+from yaml.loader import SafeLoader
+import yaml
+import openai
 import sys
+sys.path.append('../')
 from utils import get_completion
 
-
 if __name__ == '__main__': 
+
+    with open('../env.yml','r') as f:
+        data = yaml.load(f, Loader=SafeLoader)
+    openai.organization = data["OPEN_API_ORG"]
+    openai.api_key = data["OPENAI_API_KEY"]
+
     with open('datagen_vars.yml','r',encoding='UTF-8') as f:
         data = yaml.load(f, Loader=SafeLoader)
 
