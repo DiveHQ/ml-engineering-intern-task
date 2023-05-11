@@ -4,3 +4,4 @@ openai==0.27.6
 torch==1.12.1+cu116
 fuzzywuzzy
 python-Levenshtein
+wandb
