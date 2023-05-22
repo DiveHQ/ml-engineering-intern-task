@@ -1,8 +1,8 @@
 ## ![Dive Logo](https://user-images.githubusercontent.com/424487/219708981-f0416526-ba48-4b01-b5b3-c0eb73362718.png) Dive
 | Octernship info  | Timelines and Stipend |
 | ------------- | ------------- |
-| Assignment Deadline  | 3rd April 2023  |
-| Octernship Duration  | 1st May 2023 - 30th July 2023 |
+| Assignment Deadline  | 19th June 2023  |
+| Octernship Duration  | 3rd July 2023 - 3rd October 2023 |
 | Monthly Stipend  | $500 USD  |
 ## Assignment
 # Identify action items from meeting transcripts
