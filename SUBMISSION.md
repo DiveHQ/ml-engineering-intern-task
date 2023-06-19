@@ -26,7 +26,42 @@ The project aims to extract action items from meeting transcripts using a pre-tr
      ```
      pip install torch
      pip install transformers
+```
+## To run the code in a Python virtual environment, you can follow these steps:
+
+1. Set up a virtual environment: Open a terminal or command prompt and navigate to your project directory. Create a new virtual environment by running the following command:
+   ```
+   python -m venv myenv
+   ```
+
+2. Activate the virtual environment: Activate the virtual environment by running the appropriate command based on your operating system:
+   - For Windows:
      ```
+     myenv\Scripts\activate
+     ```
+   - For macOS/Linux:
+     ```
+     source myenv/bin/activate
+     ```
+
+3. Install the necessary libraries: Make sure you have the required libraries installed. In this case, you need to have Python installed along with the `pandas` library for data manipulation and the `torch` and `transformers` libraries for BERT model usage. You can install them using `pip` by running the following command:
+   ```
+   pip install pandas torch transformers
+   ```
+
+4. Set up the code: Copy the provided code into a Python file, such as `meeting_transcript.py`, using a text editor or an integrated development environment (IDE) like Visual Studio Code or PyCharm.
+
+   ```
+   python meeting_transcript.py
+   ```
+
+7. View the output: The code will process the meeting transcripts and extract the action items. The extracted action items will be printed on the console or terminal as dictionaries in the format: `{"text": ..., "assignee": ...}`. Review the printed output to see the identified action items.
+
+Ensure that you have the necessary permissions and access to the required data or files mentioned in the code. Modify the code as needed to fit your specific use case or requirements.
+
+Remember to deactivate the virtual environment once you're done by running the command `deactivate` in the terminal or command prompt.
+
+
 
 ## Usage
 1. Clone or download the project repository.
