@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'css/style.css')}}">
+    <title>CSV File Display</title>
+    <style>
+      table {
+        background: #ECE9E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        word-wrap: break-word;
+        max-width: 300px; /* Adjust the value as needed */
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+<body class = "bg-changes" id="fontStyle" >
+<h1 align="center" id="h1content" class="h1content"> CSV File Content </h1>
+  <form action= "/" method="POST" >
+    <table>
+      <tr>
+        {% for header in data[0] %}
+        <th>{{ header }}</th>
+        {% endfor %}
+      </tr>
+      {% for row in data[1:] %}
+      <tr class="form-control">
+        {% for item in row %}
+        <td>{{ item }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    <br>
+
+    <h3 class="h3content"> Paste the text column  </h3>
+
+  <div align="center" >
+    <textarea rows="10" cols="160" name="note" id="note"  class="form-control"></textarea>
+    <br>
+     <button id = "submitButton" type="submit" class="btn btn-success"> Generate </button>
+  </div>
+  </form>
+  </body>
+</html>

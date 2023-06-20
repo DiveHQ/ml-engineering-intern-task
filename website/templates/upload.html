@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<body class = "bg-changes" id="fontStyle" >
+<h1 align="center" id="h1content"> NLP Model to extract Actionable items </h1>
+    <br>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input class = "sty-butt" type="file" name="file" accept=".csv" required>
+      <br><br>
+      <button class = "sty-butt-1" type="submit" class="btn btn-info">Upload the file</button>
+    </form>
+  </body>
+{% endblock %}
