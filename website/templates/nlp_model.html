@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block title %} Result {% endblock %} {% block content
+%}
+<body class = "bg-changes" id="Notes-font" >
+<h1 align="center" id="h1content"> Automated Action Item Generation: NLP-Powered Assignee Assignment </h1>
+<br>
+<div id="containsty">
+<h3 class="h3content"> Transcripted Text </h3><br>
+<p  class="original_txt">{{original_text}}</p>
+<form action= "/" method="POST" >
+  <br> <h3 class="h3content"> Extracted list of Action Items </h3> <br>
+  <textarea  rows="4" cols="6" class="form-control" class="action_txt" >{% for item in action_items %}
+      * Text : {{ item.text }}, Assignee: {{ item.assignee }} {% endfor %} </textarea>
+  <br/>
+  <div align="center">
+    <button type="submit" class="btn btn-danger"><a class="nav-item nav-link" id="home" href="/"> Logout  </a></button>
+  </div>
+</div>
+</form>
+</body>
+{% endblock %}

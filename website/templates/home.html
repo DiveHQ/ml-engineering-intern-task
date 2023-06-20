@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<body class = "bg-changes" id="Notes-font">
+<h1 align="center" id="h1content"> Introduction </h1>
+<br>
+<p align="centre" class = "intro-font"> Experience the power of Natural Language Processing (NLP) on our website. Utilizing advanced NLP techniques, we effortlessly generate action items and assignees from your CSV data. Simplify your task management process with our intelligent solution, providing actionable insights in a snap. Boost productivity and efficiency like never before. </p>
+<form action= "/" method="POST">
+  <br/>
+  <div align="center">
+    <button type="submit" class="btn btn-warning"><a class="nav-item nav-link" id="speechText" href="/upload"> Start the task </a></button>
+  </div>
+</form>
+</body>
+{% endblock %}
